@@ -8,5 +8,6 @@ import { Component, Input } from '@angular/core';
 export class TitleDescriptionComponent {
   @Input() Title:string="";
   @Input() Description:string="";
-  @Input() EstilosDinamicos:any="";
+  @Input() EstilosDinamicosTitle:any="";
+  @Input() EstilosDinamicosDescription:any="";
 }

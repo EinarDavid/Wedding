@@ -1,7 +1,24 @@
 .title-description{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
     gap: 4px;
 
+}
+
+.TitleStyle{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.DescriptionStyle{
+    
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

@@ -34,7 +34,7 @@
     align-items: center;
   }
 .Section{
-    background-color: aqua;
+    //background-color: aqua;
     width: 100%;
     
     display: flex;
@@ -55,7 +55,56 @@ p {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  width: 100%;
 }
 
+.BackgroundVersicle{
+  background-color: #F6E8E8;
+  width: 100%;
+  min-height: 124px;
+}
 
+.BorderVersicle{
+  border: 1px solid #000000;
+  border-radius: 16px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.ContainerVersicle{
+  margin: 0px 16px 0px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+.Versicle{
+  width: 70%;
+  text-align: center;
+  padding: 20px 50px 12px 50px;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #000000;
+}
+
+.VersicleNum{
+  width: 70%;
+  text-align: center;
+  padding: 0px 50px 20px 50px;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #00000080;
+}

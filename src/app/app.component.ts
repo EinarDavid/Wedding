@@ -18,6 +18,9 @@ export class AppComponent {
   descriptionJhu = 'Creativa, apasionada por viajar, divertida y soñadora.';
   URLFacebookJhu = 'https://www.facebook.com';
   URLInstagramJhu = 'https://www.facebook.com';
+
+  title_Nuestra_Boda = "Nuestra Boda"
+  description_Nuestra_Boda = "Con la bendición de nuestros Padres:"
   
   estilosDinamicosTitle = {
     'color': '#A41916',

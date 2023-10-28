@@ -22,6 +22,9 @@ export class AppComponent {
   title_Nuestra_Boda = "Nuestra Boda"
   description_Nuestra_Boda = "Con la bendición de nuestros Padres:"
   
+  title_End = "Esperamos contar con tu presencia"
+  description_End = "¡Te esperamos!"
+
   estilosDinamicosTitle = {
     'color': '#A41916',
     'text-align': 'center',

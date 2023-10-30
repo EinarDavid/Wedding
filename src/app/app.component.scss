@@ -429,7 +429,91 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -3px;
+  margin-top: -4px;
+}
+
+
+//Backgrounds
+.BackgroundTop{
+  position: absolute;
+  z-index: -10;
+  margin-top: -100px;
+  max-width: 530px;
+}
+.BackgroundTop2{
+  position: absolute;
+  z-index: -10;
+  margin-top: -160px;
+  max-width: 530px;
+}
+
+.contentImageBottom{
+  width: 100%;
+  max-width: 530px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.BackgroundBottom{
+  position: absolute;
+  z-index: -10;
+  margin-top: -400px;
+  margin-right: -16px;
+  max-width: 530px;
+}
+.BackgroundBottom2{
+  position: absolute;
+  z-index: -10;
+  margin-top: -290px;
+  max-width: 530px;
+}
+.contentFlores{
+  width: 100%;
+  max-width: 530px;
+  display: flex;
+  //background-color: #000000;
+  height: 2px;
+  justify-content: flex-end;
+}
+
+.Flores{
+  position: absolute;
+  z-index: -10;
+  margin-top: -70px;
+  margin-right: -16px;  
+}
+
+.contentFlores2{
+  width: 100%;
+  max-width: 530px;
+  display: flex;
+  //background-color: #000000;
+  height: 2px;
+  justify-content: flex-start;
+
+}
+
+.Flores2{
+  position: absolute;
+  z-index: 1;
+  margin-top: -40px;
+  margin-left: -16px;  
+}
+
+.contentFlores3{
+  width: 100%;
+  max-width: 530px;
+  display: flex;
+  //background-color: #000000;
+  height: 2px;
+  justify-content: center;
+
+}
+
+.Flores3{
+  position: absolute;
+  z-index: 1;
+  margin-top: -10px;  
 }
 /*@media (max-width: 767.98px) {
   .timeline::after {

@@ -1,4 +1,16 @@
 <section class="title-description">
     <h1 class="TitleStyle" [ngStyle]="EstilosDinamicosTitle">{{Title}}</h1>
     <p class="DescriptionStyle" [ngStyle]="EstilosDinamicosDescription">{{Description}}</p>
+    <p> <strong> {{Prueba}} </strong> </p>
+
+    <button [disabled]='desabilitar'
+    (click)='agregarPersona()'
+    >Agregar persona</button>
+    <p>{{mensaje}} </p>
+
+    <div (keyup)="0">
+        <label>Repetidor: </label>
+        <input #entrada/>
+        {{entrada.value}}
+    </div>
 </section> 
